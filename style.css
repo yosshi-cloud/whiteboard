@@ -1,0 +1,160 @@
+/*
+Theme Name: Whiteboard
+Description: Whiteboard
+Version: 1.0
+Author: Quinas
+Author URI: https://quinas.jp/
+*/
+*{
+  box-sizing: border-box;
+}
+
+header{
+  width:100%;
+  background-color: #b3aeb5;
+  padding:20px;
+  text-align: center;
+}
+
+header a{
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+header h1{
+  font-family: serif;
+  font-size: 30px;
+}
+
+.top-wrapper img{
+  width: 1500px;
+  height:800px;
+  object-fit: cover;
+}
+
+
+.main{
+  height: 2000px;
+  text-align: center;
+}
+
+profiles ul{
+  display: flex;
+  border-bottom: 1px solid #dee7ec;
+}
+
+.profiles li{
+  float: left;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.message{
+  border-bottom: 1px solid #dee7ec;
+}
+
+.message h1{
+  font-weight: bold;
+  padding:20px;
+  font-size: 30px;
+  font-family: serif;
+
+}
+
+.message p{
+  line-height: 20px;
+  font-size: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dee7ec;
+}
+
+.magic{
+width: 25%;
+float: left;
+}
+
+.magics:::after{
+  content.";
+  display:block;
+  clear:both;
+}
+
+.magic-genre{
+  padding-bottom: 20px;
+  color: red;
+  padding-top:40px;
+}
+
+.magic-genre img{
+  width:30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.contents{
+  width90%;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.introduce{
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.name h2{
+  color: #EE82EE;
+  font-size: 40px;
+  padding: 20px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.name h3{
+  font-size: 20px;
+}
+
+.introduce p{
+  opacity:0.8;
+  line-height: 2;
+  font-size: 12px;
+  padding: 15px;
+}
+
+footer{
+  background-color: #eee;
+  padding:20px 0 40px;
+}
+
+.kanaeya{
+text-align:center;
+}
+
+.case-list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 221px;
+}
+
+
+.case-single{
+  width:100%;
+  max-width: 281px;
+  margin:0 44px 25px;
+}
+
+.case-single img{
+  margin-bottom: 23px;
+}
+
+
+.date{
+  text-align: left;
+  margin-bottom: 17px;
+}
+
+.title{
+  text-align: left;
+}
